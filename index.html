@@ -16,10 +16,48 @@
 </head>
 <body>
     <!-- Esercizio Dadi -->
-    <section>
-        <h1>Gioco dei dadi</h1>
-        <button class="button">Gioca</button>
-        
-    </section>
+    <main class="container">
+        <section class="m-4">
+            <h1 class="text-uppercase text-center fs-2 pb-3 pt-4 fw-bolder">Gioco dei dadi</h1>
+            <div class="card">
+                <div class="card-body">
+                    <div class="row row-cols-2 px-5">
+                        <div class="col text-center pt-3">
+                            <div class="mb-3">
+                                <h2 class="py-3">Giocatore: <span id="user-number"></span> </h2>
+                                <div class="alert alert-success d-none" id="user-winner" role="alert">
+                                    Il Giocatore ha vinto!
+                                </div>
+                                <div class="alert alert-danger d-none" id="user-loser" role="alert">
+                                    Il Giocatore ha perso!
+                                </div>
+                                <div class="alert alert-warning d-none" id="user-draw" role="alert">
+                                    Pareggio!
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col text-center pt-3">
+                            <div class="mb-3">
+                                <h2 class="py-3">Computer: <span id="computer-number"></span></h2>
+                                <div class="alert alert-success d-none" id="computer-winner" role="alert">
+                                    Il Computer ha vinto!
+                                </div>
+                                <div class="alert alert-danger d-none" id="computer-loser" role="alert">
+                                    Il Computer ha perso!
+                                </div>
+                                <div class="alert alert-warning d-none" id="computer-draw" role="alert">
+                                    Pareggio!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer d-flex justify-content-center gap-5 border-top-0 pt-4">
+                    <button class="button btn btn-primary play" id="play">Gioca</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
 </body>
 </html>
