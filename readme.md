@@ -28,3 +28,14 @@ Consigli del giorno:
 4. torniamo a scrivere in italiano
 5. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
 6. Il tuo codice ti sembra troppo complicato? probabilmente ti stai complicando la vita!
+
+----------------------------------------------------------------------------------------------
+
+ESERCIZIO 1 - Scaletta
+
+1 - recuperare gli elementi dal DOM assegnandogli una variabile
+2 - creo l'event listener per il bottone
+3 - dichiaro due variabili vuote per sia per il giocatore che per il computer
+4 - genero un numero random a testa per entrambi i giocatori
+5 - creo una condizionale per valutare l'effettivo vincitore
+6 - stampo il messaggio sulla pagina
