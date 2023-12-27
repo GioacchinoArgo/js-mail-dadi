@@ -43,7 +43,7 @@ ESERCIZIO 1 - Scaletta
 ESERCIZIO 2 - Scaletta
 
 1 - creo una lista di mail autorizzate
-2 - recuperare gli elementi dal DOM assegnandogli una variabile
-3 - chiedo all'utente la sua mail tramite un form
+2 - recupero gli elementi dal DOM assegnandogli una variabile
+3 - creo l'event listener per il bottone
 4 - controllo che la mail inserita faccia parte delle mail autorizzate
 5 - stampo il messaggio sull'esito del controllo
