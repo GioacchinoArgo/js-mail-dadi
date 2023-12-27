@@ -17,7 +17,7 @@ play.addEventListener('click', function(){
     // - 3 
     let resultUser = '';
     let resultComputer = '';
-    console.log (resultUser, resultComputer, userNumber);
+    console.log (resultUser, resultComputer);
 
     // - 4 
     resultUser = Math.floor(Math.random() * 6) + 1;
@@ -38,5 +38,10 @@ play.addEventListener('click', function(){
         userDraw.classList.remove('d-none')
         computerDraw.classList.remove('d-none')
     }
-    return;
 })
+
+
+
+// ------------------------- //
+
+

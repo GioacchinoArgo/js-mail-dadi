@@ -39,3 +39,11 @@ ESERCIZIO 1 - Scaletta
 4 - genero un numero random a testa per entrambi i giocatori
 5 - creo una condizionale per valutare l'effettivo vincitore
 6 - stampo il messaggio sulla pagina
+
+ESERCIZIO 2 - Scaletta
+
+1 - creo una lista di mail autorizzate
+2 - recuperare gli elementi dal DOM assegnandogli una variabile
+3 - chiedo all'utente la sua mail tramite un form
+4 - controllo che la mail inserita faccia parte delle mail autorizzate
+5 - stampo il messaggio sull'esito del controllo
